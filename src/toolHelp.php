@@ -62,7 +62,7 @@ class toolHelp
      * @Url:
      * @param $arr
      */
-    public function deBug($arr)
+    public static function deBug($arr)
     {
         if (is_array($arr) || is_object($arr)) {
             echo "<pre/>";
