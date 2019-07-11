@@ -1,0 +1,29 @@
+{
+  "name": "parieses/php-help",
+  "description": "Function extension of PHP",
+  "homepage": "https://blog.csdn.net/pariese",
+  "type": "library",
+  "support": {
+    "source": "https://github.com/parieses"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mr. 亮先生",
+      "email": "1695699447@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpHelp\\": "src/"
+
+    }
+  }
+}
