@@ -123,20 +123,7 @@ class toolHelp
         curl_close($ch);
         return $ret;
     }
-    /**
-     * 得到微秒
-     * Created by Mr.亮先生.
-     * User: 16956
-     * Date: 2019/7/9
-     * Time: 16:52
-     * @Url:
-     * @return float
-     */
-    public  static function  getMicroseconds()
-    {
-        list($usec, $sec) = explode(" ", microtime());
-        return ((float)$usec + (float)$sec);
-    }
+
     /**
      * 获取汉字首字母
      * Created by Mr.亮先生.

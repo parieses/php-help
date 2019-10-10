@@ -7,31 +7,15 @@ namespace PhpHelp;
  */
 class arrayHelp
 {
-    /**
-     * Created by Mr.亮先生.
-     * Date: 2019/7/11
-     * Time: 13:13
-     * @Url:
-     * @param $data
-     * @param $index
-     * @return array
-     */
-    public static function ArrayIndex($data,$index){
+    //数组内容做键
+    public static function arrayIndex($data,$index){
         $arr = [];
         foreach ($data as $key=>$val):
             $arr[$val[$index]] = $val;
         endforeach;
         return $arr;
     }
-
-    /**
-     * Created by Mr.亮先生.
-     * Date: 2019/7/11
-     * Time: 13:13
-     * @Url:
-     * @param $arr
-     * @return object|void
-     */
+    //数组转对象
     public static function arrayToObject($arr)
     {
         if (!is_array($arr)) return;
@@ -41,15 +25,7 @@ class arrayHelp
         }
         return (object)$arr;
     }
-
-    /**
-     * Created by Mr.亮先生.
-     * Date: 2019/7/11
-     * Time: 13:15
-     * @Url:
-     * @param $obj
-     * @return array|void
-     */
+    //对象转数组
     public static function objectToArray($obj)
     {
         $obj = (array)$obj;
@@ -60,6 +36,7 @@ class arrayHelp
         }
         return $obj;
     }
+    //二维数组排序
     public  static  function arrayMultiSort($arr, $key, $sort_order = SORT_DESC, $sort_type = SORT_NUMERIC)
     {
         if (is_array($arr)) {
@@ -72,15 +49,7 @@ class arrayHelp
         }
         return $arr;
     }
-
-    /**
-     * Created by Mr.亮先生.
-     * Date: 2019/7/11
-     * Time: 13:26
-     * @Url:
-     * @param $arr
-     * @return string
-     */
+    //数组转xml
     public  static  function arrayToXml($arr)
     {
         $xml = "<xml>";
