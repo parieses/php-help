@@ -11,6 +11,7 @@ demo 运行方法
 composer install
 php demo.php
 ```
+本扩展集成 excel（PhpSpreadsheet）Read more about it, including install instructions, in the [official documentation](https://phpspreadsheet.readthedocs.io). Or check out the [API documentation](https://phpoffice.github.io/PhpSpreadsheet/master).
 ### arrayHelp
 #### arrayIndex 示例
 ```
@@ -71,4 +72,6 @@ echo timeHelp::fromTime(timeHelp::timeStamp('2019-10-11 15:48:04'),1);
 ### toolHelp
 ```
 ```
+
+
 欢迎大家提出问题

@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6fed7f-9bc3-4724-917c-6d0572bbcc9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timeHelp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpHelp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpHelp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/weChat/ErrorCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/weChat/WXBizDataCrypt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/whChatHelp.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayHelp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayHelp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toolHelp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/toolHelp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timeHelp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeHelp.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -45,13 +41,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/wechat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.smarty" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\php-help\src\common\wechat" />
       <recent name="C:\Users\16956\Desktop\php-help" />
       <recent name="C:\Users\16956\Desktop\php-help\src" />
       <recent name="C:\Users\16956\Desktop\php-help\text" />
@@ -80,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1562811437824</updated>
       <workItem from="1562811439189" duration="9763000" />
-      <workItem from="1570696646052" duration="4450000" />
+      <workItem from="1570696646052" duration="5823000" />
+      <workItem from="1570759021453" duration="6918000" />
     </task>
     <servers />
   </component>
@@ -92,7 +90,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
