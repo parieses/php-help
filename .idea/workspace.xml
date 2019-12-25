@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a6fed7f-9bc3-4724-917c-6d0572bbcc9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/weChat/ErrorCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/weChat/WXBizDataCrypt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/whChatHelp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpHelp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpHelp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/timeHelp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/timeHelp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/toolHelp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/toolHelp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/whChatHelp.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/whChatHelp.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +35,11 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1S0NdxuB2gS7QUPC32fzgyR8GMx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,15 +56,15 @@
       <recent name="C:\Users\16956\Desktop\php-help\text" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -79,6 +81,7 @@
       <workItem from="1562811439189" duration="9763000" />
       <workItem from="1570696646052" duration="5823000" />
       <workItem from="1570759021453" duration="6918000" />
+      <workItem from="1577253702190" duration="398000" />
     </task>
     <servers />
   </component>
@@ -97,5 +100,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="682" y="162" key="refactoring.ChangeSignatureDialog" timestamp="1577254061093">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="682" y="162" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577254061093" />
   </component>
 </project>

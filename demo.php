@@ -44,4 +44,4 @@ $xml = arrayHelp::arrayToXml($xmlArr);
 echo timeHelp::timeAgo(time()-3600);
 echo toolHelp::getFirstChar('玩');
 //请替换成项目数据
-//echo whChatHelp::WXBizDataCrypt(1,2,3,4,5);
+echo whChatHelp::getSessionKey("wxb8669*9a3c72",'7d43980c*2df0f9e89','033JxH9G0e1*F9G0JxH9q');

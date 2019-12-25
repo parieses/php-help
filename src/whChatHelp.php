@@ -14,4 +14,9 @@ class whChatHelp{
             return $errCode ;
         }
     }
+    public static function GetSessionKey($appid,$secret,$code){
+        $url = "https://api.weixin.qq.com/sns/jscode2session?appid=$appid&secret=$secret&js_code=$code&grant_type=authorization_code";
+        return toolHelp::httpGet($url);
+
+    }
 }

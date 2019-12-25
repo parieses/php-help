@@ -88,10 +88,11 @@ class toolHelp
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_TIMEOUT, 1000);
         curl_setopt($ch, CURLOPT_HEADER, 0);
-        $res = "";
-        $res = curl_exec($ch);
-        curl_close($ch);
-        return $res;
+        $output = curl_exec($ch);
+        if($output === FALSE ){
+            echo "CURL Error:".curl_error($ch);
+        }
+        return $output;
     }
 
     /**
