@@ -171,4 +171,25 @@ class toolHelp
         if ($asc >= -11055 and $asc <= -10247) return "Z";
         return null;
     }
+
+    /**
+     * 根据身份证获取性别
+     * Created by Mr.亮先生.
+     * program: php-help
+     * FuncName:getSexByIdCard
+     * status:static
+     * User: Mr.liang
+     * Date: 2021/4/21
+     * Time: 17:15
+     * Email:1695699447@qq.com
+     * @param $idCard
+     * @return int
+     */
+    public static function getSexByIdCard($idCard): int
+    {
+        if (empty($idCard)) {
+            return 0;
+        }
+        return ((int)substr($idCard, 16, 1)) % 2 === 0 ? 2 : 1;
+    }
 }
